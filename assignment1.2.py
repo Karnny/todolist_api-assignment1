@@ -6,7 +6,7 @@ def main():
     arr = [1, 2, 1, 3, 5, 6, 4]
     max_num_index = 0
     current_value = 0
-    for i in arr:
+    for i in range(len(arr)):
         if (arr[i] > current_value):
             current_value = arr[i]
             max_num_index = i
